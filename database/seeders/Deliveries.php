@@ -5,16 +5,15 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class Orders extends Seeder
+class Deliveries extends Seeder
 {
     public function run(): void
     {
-        DB::table('orders')->insert([
+        DB::table('deliveries')->insert([
             [
-                'user_id' => 3, // Customer Biasa
-                'address' => 'Jalan Air Bersih No. 27',
-                'total_harga' => 40000,
-                'status' => 'pending',
+                'order_id' => 1,
+                'kurir_id' => 2, // Kurir Satu
+                'status' => 'on_the_way',
                 'created_at' => now(), 'updated_at' => now(),
             ]
         ]);
