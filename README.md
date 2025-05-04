@@ -1,18 +1,18 @@
 <h1 align="center">GALONKU</h1>
 
----
+<hr/>
 
-<p align="center"><strong>PLATFORM PENGIRIMAN DAN PEMESANAN GALON</strong></p>
+<h3 align="center">PLATFORM PENGIRIMAN DAN PEMESANAN GALON</h3>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/36f5b8ce-b59d-4c5d-892f-31a6f36b31b5" alt="Logo" width="200"/>
+  <img src="https://github.com/user-attachments/assets/36f5b8ce-b59d-4c5d-892f-31a6f36b31b5" alt="Logo GalonKu" width="200"/>
 </p>
 
 <p align="center">
-  <strong>RAHMAT RAHMADI</strong><br/>
-  D0223327<br/>
-  <strong>Framework Web Based</strong><br/>
-  2025
+  <strong>RAHMAT RAHMADI</strong><br/><br/>
+  <strong>D0223327</strong><br/><br/>
+  <strong>Framework Web Based</strong><br/><br/>
+  <strong>2025</strong>
 </p>
 
 ---
