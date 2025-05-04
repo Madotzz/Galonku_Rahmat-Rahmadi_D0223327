@@ -1,14 +1,21 @@
 <h1 align="center">GALONKU</h1>
-<h3 align="center">SISTEM PEMESANAN DAN PENGIRIMAN GALON ONLINE</h3>
+
+---
+
+<h3 align="center">PLATFORM PEMESANAN DAN PENGIRIMAN GALON</h3>
+
+---
 
 <p align="center">
-  ![Image](https://github.com/user-attachments/assets/e2e43c12-2238-45fe-8944-c6c98635f908)
+  <img src="https://github.com/user-attachments/assets/36f5b8ce-b59d-4c5d-892f-31a6f36b31b5" alt="Logo" width="200"/>
 </p>
+
+---
 
 <h3 align="center">RAHMAT RAHMADI</h3>
 <h4 align="center">D0223327</h4>
 
-<p align="center"><strong>Framework Backend</strong><br/>2025</p>
+<p align="center"><strong>Framework Web Based</strong><br/>2025</p>
 
 ---
 
