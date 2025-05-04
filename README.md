@@ -2,7 +2,7 @@
 
 <hr/>
 
-<h3 align="center">PLATFORM PENGIRIMAN DAN PEMESANAN GALON</h3>
+<h3 align="center">PLATFORM PEMESANAN DAN PENGANTARAN GALON AIR</h3>
 
 ---
 
