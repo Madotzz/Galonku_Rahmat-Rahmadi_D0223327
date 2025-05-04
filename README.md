@@ -1,16 +1,14 @@
-# GalonKu
+<h1 align="center">GALONKU</h1>
+<h3 align="center">SISTEM PEMESANAN DAN PENGIRIMAN GALON ONLINE</h3>
 
-![Image](https://github.com/user-attachments/assets/e2e43c12-2238-45fe-8944-c6c98635f908)
+<p align="center">
+  ![Image](https://github.com/user-attachments/assets/e2e43c12-2238-45fe-8944-c6c98635f908)
+</p>
 
-## Nama
+<h3 align="center">RAHMAT RAHMADI</h3>
+<h4 align="center">D0223327</h4>
 
-Rahmat Rahmadi  
-D0223327  
-
-## Mata Kuliah
-
-Framework Web Based
-Tahun: 2025
+<p align="center"><strong>Framework Backend</strong><br/>2025</p>
 
 ---
 
