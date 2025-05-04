@@ -4,6 +4,8 @@
 
 <h3 align="center">PLATFORM PENGIRIMAN DAN PEMESANAN GALON</h3>
 
+---
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/36f5b8ce-b59d-4c5d-892f-31a6f36b31b5" alt="Logo GalonKu" width="200"/>
 </p>
