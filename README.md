@@ -1,5 +1,7 @@
 # GalonKu
 
+![Image](https://github.com/user-attachments/assets/e2e43c12-2238-45fe-8944-c6c98635f908)
+
 ## Nama
 
 Rahmat Rahmadi  
@@ -39,7 +41,7 @@ Tahun: 2025
 
 | Field      | Tipe Data    | Keterangan               |
 |------------|--------------|--------------------------|
-| id         | BIGINT       | Primary Key              |
+| id         | INT       | Primary Key              |
 | name       | VARCHAR(255) | Nama pengguna            |
 | email      | VARCHAR(255) | Email unik               |
 | password   | VARCHAR(255) | Password terenkripsi     |
@@ -51,47 +53,47 @@ Tahun: 2025
 
 | Field       | Tipe Data    | Keterangan                      |
 |-------------|--------------|----------------------------------|
-| id          | BIGINT       | Primary Key                     |
-| user_id     | BIGINT       | Relasi ke tabel users           |
+| id          | INT       | Primary Key                     |
+| user_id     | INT       | Relasi ke tabel users           |
 | address     | TEXT         | Alamat pengiriman               |
 | total_harga | DECIMAL(10,2)| Total harga pesanan             |
 | status      | ENUM         | pending / konfirmasi / dikirim / selesai |
-| created_at  | TIMESTAMP    |                                  |
-| updated_at  | TIMESTAMP    |                                  |
+| created_at  | TIMESTAMP    | Waktu dibuat                    |
+| updated_at  | TIMESTAMP    | Waktu diubah                    |
 
 ### 3. products
 
 | Field      | Tipe Data     | Keterangan         |
 |------------|---------------|--------------------|
-| id         | BIGINT        | Primary Key        |
+| id         | INT        | Primary Key        |
 | name       | VARCHAR(255)  | Nama produk        |
 | stock      | INTEGER       | Stok tersedia      |
 | harga      | DECIMAL(10,2) | Harga satuan       |
-| created_at | TIMESTAMP     |                    |
-| updated_at | TIMESTAMP     |                    |
+| created_at | TIMESTAMP     | Waktu dibuat       |
+| updated_at | TIMESTAMP     | Waktu diubah       |
 
 ### 4. order_details
 
 | Field          | Tipe Data     | Keterangan                        |
 |----------------|---------------|------------------------------------|
-| id             | BIGINT        | Primary Key                        |
-| order_id       | BIGINT        | Relasi ke tabel orders             |
-| product_id     | BIGINT        | Relasi ke tabel products           |
+| id             | INT        | Primary Key                        |
+| order_id       | INT        | Relasi ke tabel orders             |
+| product_id     | INT        | Relasi ke tabel products           |
 | jumlah         | INTEGER       | Jumlah produk yang dipesan         |
 | subtotal_harga | DECIMAL(10,2) | Harga subtotal (jumlah * harga)    |
-| created_at     | TIMESTAMP     |                                    |
-| updated_at     | TIMESTAMP     |                                    |
+| created_at     | TIMESTAMP     | Waktu dibuat                       |
+| updated_at     | TIMESTAMP     | Waktu diubah                       |
 
 ### 5. deliveries
 
 | Field      | Tipe Data     | Keterangan                           |
 |------------|---------------|---------------------------------------|
-| id         | BIGINT        | Primary Key                           |
-| order_id   | BIGINT        | Relasi ke tabel orders                |
-| kurir_id   | BIGINT        | Relasi ke tabel users (kurir)         |
+| id         | INT        | Primary Key                           |
+| order_id   | INT        | Relasi ke tabel orders                |
+| kurir_id   | INT        | Relasi ke tabel users (kurir)         |
 | status     | ENUM          | on_the_way / delivered                |
-| created_at | TIMESTAMP     |                                       |
-| updated_at | TIMESTAMP     |                                       |
+| created_at | TIMESTAMP     | Waktu dibuat                          |
+| updated_at | TIMESTAMP     | Waktu diubah                          |
 
 ---
 
