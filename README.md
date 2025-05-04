@@ -1,5 +1,7 @@
 # GalonKu
 
+![Image](https://github.com/user-attachments/assets/f501738f-a37a-4e5e-9483-7eb8d95795a7)
+
 ## Nama
 
 Rahmat Rahmadi  
