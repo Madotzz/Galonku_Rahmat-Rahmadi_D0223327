@@ -1,6 +1,6 @@
 # GalonKu
 
-![Image](https://github.com/user-attachments/assets/f501738f-a37a-4e5e-9483-7eb8d95795a7)
+![Image](https://github.com/user-attachments/assets/7a250ad6-ae48-461e-ba03-b5289beb1c90)
 
 ## Nama
 
