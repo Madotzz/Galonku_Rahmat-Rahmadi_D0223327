@@ -2,20 +2,18 @@
 
 ---
 
-<h3 align="center">PLATFORM PEMESANAN DAN PENGIRIMAN GALON</h3>
-
----
+<p align="center"><strong>PLATFORM PENGIRIMAN DAN PEMESANAN GALON</strong></p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/36f5b8ce-b59d-4c5d-892f-31a6f36b31b5" alt="Logo" width="200"/>
 </p>
 
----
-
-<h3 align="center">RAHMAT RAHMADI</h3>
-<h4 align="center">D0223327</h4>
-
-<p align="center"><strong>Framework Web Based</strong><br/>2025</p>
+<p align="center">
+  <strong>RAHMAT RAHMADI</strong><br/>
+  D0223327<br/>
+  <strong>Framework Web Based</strong><br/>
+  2025
+</p>
 
 ---
 
