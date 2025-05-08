@@ -7,7 +7,7 @@
 ---
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/36f5b8ce-b59d-4c5d-892f-31a6f36b31b5" alt="Logo GalonKu" width="200"/>
+  <img src="https://github.com/user-attachments/assets/36f5b8ce-b59d-4c5d-892f-31a6f36b31b5" alt="Logo Unsulbar" width="200"/>
 </p>
 
 <p align="center">
@@ -112,6 +112,11 @@
 
 - **products** ↔ **order_details** (One to Many)  
   Satu produk bisa muncul di banyak detail pesanan.
+
+- **orders** ↔ **products** (Many to Many melalui order_details)  
+  Relasi antara pesanan dan produk bersifat Many to Many.  
+  Satu pesanan bisa berisi banyak produk, dan satu produk bisa muncul dalam banyak pesanan.  
+  Relasi ini dijembatani oleh tabel **order_details** yang juga menyimpan informasi tambahan seperti jumlah dan subtotal harga.
 
 - **orders** ↔ **deliveries** (One to One)  
   Satu pesanan memiliki satu data pengiriman.

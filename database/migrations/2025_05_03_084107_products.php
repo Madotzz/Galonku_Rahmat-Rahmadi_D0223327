@@ -15,7 +15,7 @@ return new class extends Migration
             $table->integer('stock');
             $table->decimal('harga', 10, 2);
             $table->timestamps();
-        });
+        });     
     }
 
     public function down(): void

@@ -10,7 +10,7 @@ class Users extends Seeder
 {
     public function run(): void
     {
-        DB::table('users')->insert([
+        DB::table('userss')->insert([
             [
                 'name' => 'Admin Galon',
                 'email' => 'admin@galonku.test',

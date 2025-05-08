@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained();
+            $table->foreignId('user_id')->constrained('userss')->onDelete('cascade');
             $table->text('address');
             $table->decimal('total_harga', 10, 2);
             $table->enum('status', ['pending', 'konfirmasi', 'dikirim', 'selesai'])->default('pending');
