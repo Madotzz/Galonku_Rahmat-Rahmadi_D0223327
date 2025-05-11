@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
+
 class User extends Authenticatable
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
@@ -21,6 +22,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
     ];
 
     /**
@@ -44,5 +46,20 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+    /**
+     * Relasi satu ke banyak (one to many)
+     * Seorang user (sebagai customer) bisa memiliki banyak order
+     */
+    public function orders() {
+        return $this->hasMany(Order::class, 'user_id', 'id');
+    }
+
+    /**
+     * Relasi satu ke banyak (one to many)
+     * Seorang user (sebagai kurir) bisa memiliki banyak pengiriman
+     */
+    public function deliveries() {
+        return $this->hasMany(Delivery::class, 'kurir_id', 'id');
     }
 }
